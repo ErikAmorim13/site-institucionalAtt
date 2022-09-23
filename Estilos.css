@@ -32,7 +32,6 @@ body{
 }
 
 .banner{
-    border: solid 3px pink;
     color: white;
     padding: 40px 0;
     height: 400px;
@@ -41,7 +40,6 @@ body{
 }
 
 .banner .container{
-    border: solid 3px red;
     height: 400px;
     display: flex;
     justify-content: center;
@@ -50,7 +48,6 @@ body{
 
 .banner p{
     font-size: 30px;
-    border: solid 3px green;
     width: 200px;
 }
 
@@ -59,7 +56,6 @@ body{
 }
 
 .social{
-    border: solid 3px green;
     background-color: white;
 }
 
@@ -67,18 +63,12 @@ body{
     width: 170px;
 }
 
-.social .container{
-    border: solid 3px purple;
-}
-
 .social .container .boxes{
-    border: solid 3px orange;
     display: flex;
 
 } 
 
 .box{
-    border: solid blue;
     margin: 50px 10px 10px 10px;
     display: flex;
     flex-direction: column;
@@ -87,6 +77,12 @@ body{
 
 .social p{
     text-align: center;
+}
+
+.header ul #here{
+    font-weight: 1000;
+    color: #32b9cd;
+
 }
 
 footer{
@@ -99,4 +95,9 @@ footer{
 footer .container{
     display: flex;
     justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: #e3b062;
 }
