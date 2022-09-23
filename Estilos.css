@@ -85,14 +85,14 @@ body{
 
 }
 
-footer{
+.footer{
     background-color: #32b9cd;
-    height: 150px;
+    height: 100px;
     color: #fff;
     display: flex;
 }
 
-footer .container{
+.footer .container{
     display: flex;
     justify-content: center;
 }
